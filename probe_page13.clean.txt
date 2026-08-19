@@ -1,0 +1,21 @@
+2026-08-16 08:47:25.928 | INFO     | manga_ocr.ocr:__init__:16 - Loading OCR model from kha-white/manga-ocr-base
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+gambar jp_13.JPG 736x239
+[ort] detector: CUDAExecutionProvider tidak tersedia -> CPU (lambat)
+region=4 bubble=4
+[ort] ctd: CUDAExecutionProvider tidak tersedia -> CPU (lambat)
+
+Loading weights:   0%|          | 0/264 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 264/264 [00:00<00:00, 6397.82it/s]
+2026-08-16 08:47:34.212 | INFO     | manga_ocr.ocr:__init__:30 - Using CPU
+2026-08-16 08:47:42.642 | INFO     | manga_ocr.ocr:__init__:37 - OCR ready
+
+idx                     bbox        kelas     ink      label  src_text
+------------------------------------------------------------------------------------------------
+  0       (559, 13, 612, 99)  text_bubble  0.6345   DIALOGUE  'でも特別なこともあったのですよ'
+  1       (309, 7, 376, 106)  text_bubble  0.6350   DIALOGUE  '実はこの時参加されてる方の一人から．．．'
+  2      (245, 28, 298, 154)  text_bubble  0.6351   DIALOGUE  '告白を頂いてしまいました．．．♥'
+  3      (140, 55, 189, 154)  text_bubble  0.4941   DIALOGUE  'えっ！？'
+
+akan dikirim ke penyedia: 4 region -> idx [0, 1, 2, 3]
+ditahan (SFX/UNREADABLE): []

@@ -1,0 +1,100 @@
+# ─────────────────────────────────────────────────────────────────────────
+# RAHASIA — jangan pernah ter-commit. Sekali masuk riwayat git, kuncinya
+# bocor permanen walau file-nya dihapus di commit berikutnya.
+# ─────────────────────────────────────────────────────────────────────────
+deepl.txt
+test.txt
+seekai.txt
+freetokenfaucet.txt
+gorouter.txt
+*.env
+.env
+.env.*
+*_key.txt
+*token*.txt
+
+# .p.sh memuat token Bearer TER-HARDCODE 5 kali (bukan salah satu dari lima
+# berkas di atas — token TERSENDIRI). Namanya tidak berbau rahasia dan awalan
+# titiknya membuatnya tak terlihat di `ls`, jadi ia lolos dua penyaring
+# sekaligus: penyaring nama-tersangka DAN penyaring nilai-dari-lima-berkas.
+# Sebab itu gerbang pra-commit sekarang menyapu BENTUK kunci di SELURUH file
+# ter-stage, bukan cuma di file yang namanya mencurigakan.
+.p.sh
+
+# Setelan Claude Code per-mesin. Akhiran .local.json memang konvensi "jangan
+# dibagikan"; isinya daftar izin sesi, tidak berguna bagi orang lain.
+.claude/settings.local.json
+
+# ─────────────────────────────────────────────────────────────────────────
+# FONT — JANGAN dibundel. Kode mengunduh SEMUANYA saat runtime lewat
+# FONT_CHAIN / FONT_SHOUT / FONT_SYMBOL / FONT_CJK di config.py, jadi
+# membundelnya tidak berguna. Untuk anime_ace.ttf malah DILARANG: lisensi
+# Blambot melarang redistribusi, dan komentar config.py:55-58 menyatakannya
+# eksplisit. NotoSansCJKjp-Regular.otf boleh (OFL) tapi 16 MB dan OFL
+# mewajibkan teks lisensinya menyertai — lebih bersih diunduh saja.
+# Folder fonts/ tetap ada di disk sebagai cache unduhan (WORK/fonts).
+# ─────────────────────────────────────────────────────────────────────────
+fonts/
+
+# ─────────────────────────────────────────────────────────────────────────
+# MODEL — 447 MB, dan lama_large_512px.ckpt sendiri 195 MB, melewati batas
+# keras GitHub 100 MB/file. assets.py:download_weights() mengunduhnya dari
+# WEIGHT_URLS (config.py:32) dengan rantai mirror, jadi tidak perlu dibundel.
+# ─────────────────────────────────────────────────────────────────────────
+weights/
+*.onnx
+*.ckpt
+*.pt
+
+# ─────────────────────────────────────────────────────────────────────────
+# CACHE & HASIL STAGING — semuanya dihasilkan ulang otomatis
+# ─────────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.stage/
+*.pkl
+.probe_cache*.pkl
+
+# ─────────────────────────────────────────────────────────────────────────
+# KELUARAN PROBE — gambar/log yang dihasilkan probe _*.py. Probe-nya sendiri
+# IKUT ter-commit (itu catatan pengukurannya); keluarannya tidak, karena
+# tinggal dijalankan ulang.
+# ─────────────────────────────────────────────────────────────────────────
+_cmp/
+_dbg/
+_view/
+debug/
+output/
+/_*.png
+*.out
+*.log
+.out_*.txt
+
+# ─────────────────────────────────────────────────────────────────────────
+# HALAMAN MANGA — scan berhak cipta (doujinshi), dan repo ini PUBLIK.
+# Folder bukti tetap ada di disk lokal untuk revisi berikutnya; yang tidak
+# boleh adalah menerbitkannya. Riwayat git membuatnya sulit ditarik kembali,
+# jadi lebih baik tidak pernah masuk.
+# ─────────────────────────────────────────────────────────────────────────
+hasilnew/
+hasilnew2/
+hasilnew3/
+hasilnew4/
+hasilnew5/
+cacat/
+cacatbaru/
+CONTOH/
+kerja6/
+/*.png
+/*.webp
+/*.jpg
+/*.JPG
+/*.jpeg
+
+# ─────────────────────────────────────────────────────────────────────────
+# CADANGAN LOKAL
+# ─────────────────────────────────────────────────────────────────────────
+*.bak
+*.bak-*
+*[Cc]opy.ipynb
+.ipynb_checkpoints/

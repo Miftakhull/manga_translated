@@ -1,0 +1,59 @@
+2026-08-15 16:05:16.832 | INFO     | manga_ocr.ocr:__init__:16 - Loading OCR model from kha-white/manga-ocr-base
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[font] pakai AnimeAce -> anime_ace.ttf
+[key] dimuat dari deepl.txt (tidak dicetak)
+[input] jepang_002.webp (1134, 1577)
+[ort] detector: CUDAExecutionProvider tidak tersedia -> CPU (lambat)
+[ort] ctd: CUDAExecutionProvider tidak tersedia -> CPU (lambat)
+Loading weights:   0%|          | 0/264 [00:00<?, ?it/s]Loading weights: 100%|██████████| 264/264 [00:00<00:00, 12967.06it/s]
+2026-08-15 16:05:24.891 | INFO     | manga_ocr.ocr:__init__:30 - Using CPU
+2026-08-15 16:05:32.948 | INFO     | manga_ocr.ocr:__init__:37 - OCR ready
+[batch] {'pages': 1, 'model': 'deepl', 'target_lang': 'English', 'style': 'Manga Natural', 'keep_honorifics': True, 'font_used': 'C:\\PROJECT\\WEBAI\\manga_translated\\fonts\\anime_ace.ttf', 'probes': [], 'residue_total': 0, 'overflow_total': 0, 'sfx_total': 0, 'zip': 'C:\\PROJECT\\WEBAI\\manga_translated\\output\\manga_translated.zip'}
+
+=== report.json ===
+  region_count: 13
+  residue_count: 0
+  residue_idx: []
+  overflow_count: 0
+  protected_count: 0
+  sfx_idx: []
+  translated_count: 13
+  route_flat: 13
+  route_lama: 0
+  font_used: C:\PROJECT\WEBAI\manga_translated\fonts\anime_ace.ttf
+  regions: [{'idx': 0, 'bbox': [355, 142, 469, 296], 'det_class': 'text_bubble', 'det_conf': 0.952, 'label': 'DIALOGUE', 'label_conf': 0.5, 'src_text': 'あーっ！やっと見つけたっ', 'translation': 'Ah! I finally found it!', 'route': 'flat', 'est_font_size': 22.5, 'final_font_size': 18, 'lines': ['AH! I', 'FINALLY', 'FOUND IT!'], 'ink_ratio': 0.4401, 'overflowed': False, 'protected': False}, {'idx': 1, 'bbox': [217, 184, 338, 383], 'det_class': 'text_bubble', 'det_conf': 0.933, 'label': 'DIALOGUE', 'label_conf': 0.5, 'src_text': 'こんなとこに居たんですかっ', 'translation': 'You were here all along?!', 'route': 'flat', 'est_font_size': 20.5, 'final_font_size': 21, 'lines': ['YOU WERE', 'HERE ALL', 'ALONG?!'], 'ink_ratio': 0.3476, 'overflowed': False, 'protected': False}, {'idx': 2, 'bbox': [780, 513, 898, 704], 'det_class': 'text_bubble', 'det_conf': 0.94, 'label': 'DIALOGUE', 'label_conf': 0.5, 'src_text': '探しましたよ', 'translation': 'I looked for it.', 'route': 'flat', 'est_font_size': 26.0, 'final_font_size': 20, 'lines': ['I LOOKED', 'FOR IT.'], 'ink_ratio': 0.3733, 'overflowed': False, 'protected': False}, {'idx': 3, 'bbox': [671, 570, 777, 755], 'det_class': 'text_bubble', 'det_conf': 0.919, 'label': 'DIALOGUE', 'label_conf': 0.5, 'src_text': '〈会長っ〉', 'translation': 'Chairman', 'route': 'flat', 'est_font_size': 30.0, 'final_font_size': 18, 'lines': ['CHAIRMAN'], 'ink_ratio': 0.2332, 'overflowed': False, 'protected': False}, {'idx': 4, 'bbox': [237, 825, 301, 926], 'det_class': 'text_bubble', 'det_conf': 0.913, 'label': 'DIALOGUE', 'label_conf': 0.5, 'src_text': 'あら', 'translation': 'Oh, really?', 'route': 'flat', 'est_font_size': 57.0, 'final_font_size': 12, 'lines': ['OH,', 'REALLY?'], 'ink_ratio': 0.5309, 'overflowed': False, 'protected': False}, {'idx': 5, 'bbox': [167, 894, 264, 1053], 'det_class': 'text_bubble', 'det_conf': 0.91, 'label': 'DIALOGUE', 'label_conf': 0.5, 'src_text': '・雫さん．．．', 'translation': 'Shizuku...', 'route': 'flat', 'est_font_size': 31.0, 'final_font_size': 20, 'lines': ['SHIZUKU...'], 'ink_ratio': 0.3061, 'overflowed': False, 'protected': False}, {'idx': 6, 'bbox': [929, 1139, 982, 1289], 'det_class': 'text_bubble', 'det_conf': 0.924, 'label': 'DIALOGUE', 'label_conf': 0.5, 'src_text': '＼失礼しました', 'translation': 'My apologies', 'route': 'flat', 'est_font_size': 22.0, 'final_font_size': 11, 'lines': ['MY', 'APOLO-', 'GIES'], 'ink_ratio': 0.4868, 'overflowed': False, 'protected': False}, {'idx': 7, 'bbox': [841, 1149, 936, 1324], 'det_class': 'text_bubble', 'det_conf': 0.967, 'label': 'DIALOGUE', 'label_conf': 0.5, 'src_text': '放課後はこちらが静かで落ち着くもので．．．', 'translation': "After school, it's quiet and peaceful here...", 'route': 'flat', 'est_font_size': 22.0, 'final_font_size': 13, 'lines': ['AFTER', 'SCHOOL,', "IT'S", 'QUIET AND', 'PEACEFUL', 'HERE...'], 'ink_ratio': 0.6269, 'overflowed': False, 'protected': False}, {'idx': 8, 'bbox': [656, 1150, 746, 1278], 'det_class': 'text_bubble', 'det_conf': 0.96, 'label': 'DIALOGUE', 'label_conf': 0.5, 'src_text': '何してたんです？こんな所で', 'translation': 'What were you doing here?', 'route': 'flat', 'est_font_size': 89.0, 'final_font_size': 15, 'lines': ['WHAT', 'WERE', 'YOU', 'DOING', 'HERE?'], 'ink_ratio': 0.8533, 'overflowed': False, 'protected': False}, {'idx': 9, 'bbox': [530, 1140, 626, 1304], 'det_class': 'text_bubble', 'det_conf': 0.959, 'label': 'DIALOGUE', 'label_conf': 0.5, 'src_text': '性徒会の執行記録を作ってたんです', 'translation': 'I was compiling the executive records for the Student Council.', 'route': 'flat', 'est_font_size': 22.0, 'final_font_size': 11, 'lines': ['I WAS', 'COMPILING', 'THE', 'EXECUTIVE', 'RECORDS', 'FOR THE', 'STUDENT', 'COUNCIL.'], 'ink_ratio': 0.5939, 'overflowed': False, 'protected': False}, {'idx': 10, 'bbox': [441, 1158, 536, 1311], 'det_class': 'text_bubble', 'det_conf': 0.946, 'label': 'DIALOGUE', 'label_conf': 0.5, 'src_text': 'この春からの活動まとめですね', 'translation': "This is a summary of our activities since this spring, isn't it?", 'route': 'flat', 'est_font_size': 21.0, 'final_font_size': 11, 'lines': ['THIS IS A', 'SUMMARY', 'OF OUR', 'ACTIVITIES', 'SINCE THIS', 'SPRING,', "ISN'T", 'IT?'], 'ink_ratio': 0.5452, 'overflowed': False, 'protected': False}, {'idx': 11, 'bbox': [165, 1135, 250, 1252], 'det_class': 'text_bubble', 'det_conf': 0.941, 'label': 'DIALOGUE', 'label_conf': 0.5, 'src_text': 'あっシコ部のですかっ？', 'translation': 'Oh, is this the Shiko Club?', 'route': 'flat', 'est_font_size': 54.0, 'final_font_size': 13, 'lines': ['OH, IS', 'THIS THE', 'SHIKO', 'CLUB?'], 'ink_ratio': 0.7741, 'overflowed': False, 'protected': False}, {'idx': 12, 'bbox': [108, 1172, 188, 1348], 'det_class': 'text_bubble', 'det_conf': 0.94, 'label': 'DIALOGUE', 'label_conf': 0.5, 'src_text': 'すかっ？ちょっと見せてくださいよ〜っ', 'translation': 'What? Let me take a look~!', 'route': 'flat', 'est_font_size': 17.0, 'final_font_size': 15, 'lines': ['WHAT?', 'LET ME', 'TAKE A', 'LOOK~!'], 'ink_ratio': 0.6021, 'overflowed': False, 'protected': False}]
+  bubble_count: 15
+
+=== per region ===
+  idx cls          label     bub    est  fin  ovf  lines
+    0 text_bubble  DIALOGUE  yes   22.5   18 False  ['AH! I', 'FINALLY', 'FOUND IT!']
+    1 text_bubble  DIALOGUE  yes   20.5   21 False  ['YOU WERE', 'HERE ALL', 'ALONG?!']
+    2 text_bubble  DIALOGUE  yes   26.0   20 False  ['I LOOKED', 'FOR IT.']
+    3 text_bubble  DIALOGUE  yes   30.0   18 False  ['CHAIRMAN']
+    4 text_bubble  DIALOGUE  yes   57.0   12 False  ['OH,', 'REALLY?']
+    5 text_bubble  DIALOGUE  yes   31.0   20 False  ['SHIZUKU...']
+    6 text_bubble  DIALOGUE  yes   22.0   11 False  ['MY', 'APOLO-', 'GIES']
+    7 text_bubble  DIALOGUE  yes   22.0   13 False  ['AFTER', 'SCHOOL,', "IT'S", 'QUIET AND', 'PEACEFUL', 'HERE...']
+    8 text_bubble  DIALOGUE  yes   89.0   15 False  ['WHAT', 'WERE', 'YOU', 'DOING', 'HERE?']
+    9 text_bubble  DIALOGUE  yes   22.0   11 False  ['I WAS', 'COMPILING', 'THE', 'EXECUTIVE', 'RECORDS', 'FOR THE', 'STUDENT', 'COUNCIL.']
+   10 text_bubble  DIALOGUE  yes   21.0   11 False  ['THIS IS A', 'SUMMARY', 'OF OUR', 'ACTIVITIES', 'SINCE THIS', 'SPRING,', "ISN'T", 'IT?']
+   11 text_bubble  DIALOGUE  yes   54.0   13 False  ['OH, IS', 'THIS THE', 'SHIKO', 'CLUB?']
+   12 text_bubble  DIALOGUE  yes   17.0   15 False  ['WHAT?', 'LET ME', 'TAKE A', 'LOOK~!']
+
+=== kriteria lulus ===
+  region terterjemah        : 13 / 13
+  overflow_count            : 0
+  overlap interior maks (px): 0
+  tinta di luar interior (px): 0
+  font size                 : [11, 11, 11, 12, 13, 13, 15, 15, 18, 18, 20, 20, 21]  spread=1.91
+  kurang dari plafon (>1 px): 0  []
+  di bawah min_font_size    : []
+  baris ber-tanda hubung    : 1  ['APOLO-']
+  sisa punctuation CJK      : 0  []
+  sfx_idx                   : []
+  tinta SFX hilang (px)     : {'nonono': 0, 'san': 0}
+
+=== HASIL ===
+  semua kriteria terukur LOLOS (sisanya perlu mata: banding ke CONTOH/2.webp)
+  output[png]: C:\PROJECT\WEBAI\manga_translated\output\jepang_002.png
+  output[jpg]: C:\PROJECT\WEBAI\manga_translated\output\jepang_002.jpg

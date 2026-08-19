@@ -1,0 +1,193 @@
+{
+ "provider": "LLM (freetokenfaucet)",
+ "model": "mimo-v2.5-pro",
+ "pages": {
+  "jp_6": {
+   "report": {
+    "region_count": 8,
+    "residue_count": 0,
+    "residue_idx": [],
+    "overflow_count": 0,
+    "protected_count": 0,
+    "sfx_idx": [],
+    "translated_count": 8,
+    "untranslated_count": 0,
+    "untranslated_idx": [],
+    "translatable_count": 8,
+    "notes": [
+     {
+      "level": "warn",
+      "tag": "ort",
+      "msg": "detector: CUDAExecutionProvider tidak tersedia -> CPU (lambat)"
+     },
+     {
+      "level": "warn",
+      "tag": "ort",
+      "msg": "ctd: CUDAExecutionProvider tidak tersedia -> CPU (lambat)"
+     },
+     {
+      "level": "warn",
+      "tag": "faucet",
+      "msg": "mimo-v2.5-pro -> ValueError: bukan JSON (finish_reason='content_filter', out=?/1200 token): The request was rejected because it was considered high risk"
+     },
+     {
+      "level": "warn",
+      "tag": "faucet",
+      "msg": "semua model gagal percobaan 1; tunggu 4s"
+     },
+     {
+      "level": "warn",
+      "tag": "faucet",
+      "msg": "mimo-v2.5-pro -> URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because co"
+     },
+     {
+      "level": "warn",
+      "tag": "faucet",
+      "msg": "semua model gagal percobaan 1; tunggu 4s"
+     }
+    ],
+    "error_count": 0,
+    "warn_count": 6,
+    "route_flat": 8,
+    "route_lama": 0,
+    "font_used": "C:\\PROJECT\\WEBAI\\manga_translated\\fonts\\anime_ace.ttf",
+    "bubble_count": 9
+   },
+   "regions": [
+    {
+     "idx": 0,
+     "label": "DIALOGUE",
+     "src": "ーで結局",
+     "en": "So in the end,",
+     "font": 7,
+     "overflow": false
+    },
+    {
+     "idx": 1,
+     "label": "DIALOGUE",
+     "src": "みんな興奮し過ぎてほとんど自分で射精しちゃってっ♥！",
+     "en": "everyone got so excited they mostly just came on their own♥!",
+     "font": 9,
+     "overflow": false
+    },
+    {
+     "idx": 2,
+     "label": "DIALOGUE",
+     "src": "そりゃあこんなドエロい人見たこと無いですから無理ない",
+     "en": "Well, I've never seen anyone that hot before, so I get it.",
+     "font": 9,
+     "overflow": false
+    },
+    {
+     "idx": 3,
+     "label": "DIALOGUE",
+     "src": "っ無理ないですよね♥！",
+     "en": "It's not too much, right?♥!",
+     "font": 6,
+     "overflow": false
+    },
+    {
+     "idx": 4,
+     "label": "DIALOGUE",
+     "src": "っ．．．そ．．そ・そのように形容されるのは恥ずかしいので．．．っ",
+     "en": "I-It's embarrassing being described like that...",
+     "font": 8,
+     "overflow": false
+    },
+    {
+     "idx": 5,
+     "label": "DIALOGUE",
+     "src": "あまりからかわないでください．．．っ",
+     "en": "Please don't tease me...",
+     "font": 7,
+     "overflow": false
+    },
+    {
+     "idx": 6,
+     "label": "DIALOGUE",
+     "src": "え～っ心から称賛してるのにぃ？",
+     "en": "Ehh~? But I'm praising you from the bottom of my heart!",
+     "font": 8,
+     "overflow": false
+    },
+    {
+     "idx": 7,
+     "label": "DIALOGUE",
+     "src": "あっ！",
+     "en": "AH!",
+     "font": 7,
+     "overflow": false
+    }
+   ],
+   "clean_audit": {
+    "dev_threshold": 16,
+    "dirty_px_total": 0,
+    "components_total": 0,
+    "dots": [],
+    "lines": [],
+    "per_region": [
+     {
+      "idx": 0,
+      "bg": 255.0,
+      "bad_px": 0,
+      "components": 0,
+      "max_area": 0
+     },
+     {
+      "idx": 1,
+      "bg": 255.0,
+      "bad_px": 0,
+      "components": 0,
+      "max_area": 0
+     },
+     {
+      "idx": 2,
+      "bg": 255.0,
+      "bad_px": 0,
+      "components": 0,
+      "max_area": 0
+     },
+     {
+      "idx": 3,
+      "bg": 255.0,
+      "bad_px": 0,
+      "components": 0,
+      "max_area": 0
+     },
+     {
+      "idx": 4,
+      "bg": 255.0,
+      "bad_px": 0,
+      "components": 0,
+      "max_area": 0
+     },
+     {
+      "idx": 5,
+      "bg": 255.0,
+      "bad_px": 0,
+      "components": 0,
+      "max_area": 0
+     },
+     {
+      "idx": 6,
+      "bg": 255.0,
+      "bad_px": 0,
+      "components": 0,
+      "max_area": 0
+     },
+     {
+      "idx": 7,
+      "bg": 255.0,
+      "bad_px": 0,
+      "components": 0,
+      "max_area": 0
+     }
+    ]
+   },
+   "paths": {
+    "png": "C:\\PROJECT\\WEBAI\\manga_translated\\output\\jp_6.png",
+    "jpg": "C:\\PROJECT\\WEBAI\\manga_translated\\output\\jp_6.jpg"
+   }
+  }
+ }
+}

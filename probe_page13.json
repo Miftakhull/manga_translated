@@ -1,0 +1,86 @@
+{
+ "image": "jp_13.JPG",
+ "size": [
+  736,
+  239
+ ],
+ "bubble_count": 4,
+ "min_ink_ratio": 0.015,
+ "regions": [
+  {
+   "idx": 0,
+   "bbox": [
+    559,
+    13,
+    612,
+    99
+   ],
+   "det_class": "text_bubble",
+   "det_conf": 0.905,
+   "in_bubble": true,
+   "ink_ratio": 0.6345,
+   "label": "DIALOGUE",
+   "src_text": "でも特別なこともあったのですよ",
+   "sfx_core": "でもなこともあったのですよ",
+   "protected": false
+  },
+  {
+   "idx": 1,
+   "bbox": [
+    309,
+    7,
+    376,
+    106
+   ],
+   "det_class": "text_bubble",
+   "det_conf": 0.924,
+   "in_bubble": true,
+   "ink_ratio": 0.635,
+   "label": "DIALOGUE",
+   "src_text": "実はこの時参加されてる方の一人から．．．",
+   "sfx_core": "はこのされてるのから",
+   "protected": false
+  },
+  {
+   "idx": 2,
+   "bbox": [
+    245,
+    28,
+    298,
+    154
+   ],
+   "det_class": "text_bubble",
+   "det_conf": 0.858,
+   "in_bubble": true,
+   "ink_ratio": 0.6351,
+   "label": "DIALOGUE",
+   "src_text": "告白を頂いてしまいました．．．♥",
+   "sfx_core": "をいてしまいました",
+   "protected": false
+  },
+  {
+   "idx": 3,
+   "bbox": [
+    140,
+    55,
+    189,
+    154
+   ],
+   "det_class": "text_bubble",
+   "det_conf": 0.807,
+   "in_bubble": true,
+   "ink_ratio": 0.4941,
+   "label": "DIALOGUE",
+   "src_text": "えっ！？",
+   "sfx_core": "えっ",
+   "protected": false
+  }
+ ],
+ "sent_idx": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "held": []
+}

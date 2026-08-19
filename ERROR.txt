@@ -1,0 +1,34 @@
+{
+  "pages": 1,
+  "model": "Deepseek-v4-flash",
+  "provider": "LLM (freetokenfaucet)",
+  "target_lang": "English",
+  "style": "Uncensored",
+  "keep_honorifics": true,
+  "font_used": "/content/work/fonts/anime_ace.ttf",
+  "probes": [],
+  "residue_total": 1,
+  "overflow_total": 0,
+  "sfx_total": 0,
+  "notes": [
+    {
+      "level": "error",
+      "tag": "translate",
+      "msg": "faucet gagal (HTTP Error 402: Payment Required); halaman keluar TANPA terjemahan (15 balon tetap berbahasa Jepang), teks asli di sidecar JSON"
+    }
+  ],
+  "error_total": 1,
+  "warn_total": 0,
+  "translated_total": 0,
+  "untranslated_total": 15,
+  "zip": "/content/work/output/manga_translated.zip",
+  "rar": "/content/work/output/manga_translated.rar"
+}
+
+
+[!!] [translate] faucet gagal (HTTP Error 402: Payment Required); halaman keluar TANPA terjemahan (15 balon tetap berbahasa Jepang), teks asli di sidecar JSON
+[!!] [translate] faucet gagal (HTTP Error 402: Payment Required); halaman keluar TANPA terjemahan (13 balon tetap berbahasa Jepang), teks asli di sidecar JSON
+[!!] [translate] faucet gagal (HTTP Error 402: Payment Required); halaman keluar TANPA terjemahan (13 balon tetap berbahasa Jepang), teks asli di sidecar JSON
+
+
+
